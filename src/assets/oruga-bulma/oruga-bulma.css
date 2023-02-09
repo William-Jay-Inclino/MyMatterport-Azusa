@@ -1,0 +1,576 @@
+.table{
+  background: none !important;
+  text-align: left !important;
+}
+.b-table .table th{
+  text-align: left !important;
+}
+.table td, .table th{
+  padding: 0.5rem 2.75rem !important
+}
+.b-table .table th.is-sortable > span
+{
+  font-size: 16px;
+}
+.table tbody tr:last-child td{
+  font-size: 14px;
+}
+.box {
+  padding: 0;
+}
+figure{
+  width: 100%;
+}
+.tile {
+  border-radius: 10px;
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+}
+hr{
+    margin: 3px 0 3px 0;
+    color: gray;
+    background-color: gray;
+}
+.notification.is-success{
+  background: #00D1B2 !important;
+  color: #FFFFFF !important;
+  border-radius: 6px;
+}
+.notification > .delete{
+  background: #00D1B2 !important;
+}
+.modal-close, .delete {
+  max-width: 11.76px !important;
+  max-height: 10.49px !important;
+  min-width: 11.76px !important;
+  min-height: 10.49px !important;
+}
+.notification{
+  display: absolute;
+  padding: 20px 40px 20px 24px;
+}
+
+
+.b-tooltip.is-info .tooltip-content{
+    background: white;
+    color: #3e8ed0;
+    word-wrap: break-word;
+}
+.is-engineer {
+  color: white;
+  background: green !important;
+  border-radius: 5px;
+  padding: 5px;
+}
+.is-accountant {
+  color: white;
+  background: red !important;
+  border-radius: 5px;
+  padding: 5px;
+}
+.is-human-resource {
+  color: white;
+  background: blue !important;
+  border-radius: 5px;
+  padding: 5px;
+}
+.is-utilities {
+  color: white;
+  background: orange !important;
+  border-radius: 5px;
+  padding: 5px;
+}
+.is-admin {
+  color: grey;
+  background: beige !important;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.switcher-title{
+  font-size: 20px;
+}
+.header-title{
+  font-size: 40px;
+  position: absolute;
+}
+.profile-title{
+  position: absolute;
+  font-weight: 700;
+  left: 24px;;
+  right: 54.61%;
+  top: 26px;
+  bottom: 6.45%;
+  height: 29px;
+  width: 128px;
+}
+.button-icon{
+  display: inline-block;
+  position: relative;
+  margin-top: -7px !important;
+  vertical-align: middle;
+  color: black
+}
+.menu-width{
+  width: 180px !important
+}
+/* .menu-list a{
+  padding: 0.45em 0.15em !important
+} */
+.menu-text{
+  font-size: 14px;
+  font-style: normal;
+}
+
+.menu-wrapper{
+  height: 100vh;
+  margin-left: -20px;
+}
+.menu-bottom-wrapper{
+  /* height: max-content; */
+  /* width: max-content; */
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1px !important
+}
+.menu-item-text{
+  color: black;
+  /* margin-left: 12px; */
+  /* display: inline-block;
+  position: relative; */
+  font-size: 14px;
+  font-style: normal;
+}
+.menu-tree-items{
+  height: 68vh;
+  overflow: auto;
+  overflow-x: clip;
+  background: none;
+  margin-top: 55px
+}
+.sidemenu-container{
+  padding-left: 10px !important;
+  padding-right: 12px !important;
+  background: rgba(230,230,230, 0.8);
+  position: relative;
+}
+.card-icon{
+  margin-top: 30px;
+}
+.card-icon-background {
+  background: rgba(238, 238, 238, 1) !important;
+  height: 140px;
+}
+.card-icon-text {
+  position: absolute;
+  background: white;
+  width: 240px;
+  height: 25px;
+}
+.card-name-container {
+  position: absolute;
+  margin-top: 116px;
+  padding-top: 0;
+  height: 23px;
+  background: rgba(255,255,255,0.5);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.card-image-container{
+  display: block !important;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  margin-left: -192px
+}
+.card-text {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  width: 240px;
+  height: 25px;
+}
+.card-size{
+  width: 240px !important;
+  height: 135px !important;
+  color: rgba(54, 54, 54, 0.1)
+}
+.action-text{
+  color: black;
+  margin-left: 7px;
+  display: inline-block;
+  position: relative;
+  padding-top: 10px;
+  font-size: 20px
+}
+.pattern-background{
+  background-image: url(/public/background_img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0px;
+}
+.login-pattern-background{
+  background-image: url(/public/login_img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 0px;
+}
+.logo-container{
+  width: 299px;
+  height: 60px;
+}
+.login-logo{
+  margin-top: 30px;
+}
+.login-wrapper{
+  background: rgba(243,243,243,0.8);
+  width: 500px;
+  height: 500px;
+  margin-top: calc(100% - 375px);
+  margin-left: calc(100%)
+}
+.login-input{
+  width: 270px;
+  height: 30px;
+  border-radius: 0px !important;
+}
+.label-text{
+  text-align: right;
+  width: 150px;
+}
+.mail-wrapper{
+  display: inline-block;
+  position: relative;
+  margin-top: 100px !important;
+  margin-left: -25px !important;
+}
+.password-wrapper{
+  margin-top: 0px !important;
+  margin-left: -25px !important;
+}
+.help-text{
+  font-size: 10px;
+  line-height: 150%;
+  color: rgba(161, 161, 161, 1);
+  text-decoration: underline;
+}
+.help-text-wrapper{
+  top: 73%;
+  bottom: 0;
+  margin: 0;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 320px;
+  margin-left: 90px;
+}
+.log-button{
+  margin-top: 60px;
+  margin-left: calc(100% - 250px);
+  width: 91px;
+  height: 33px;
+}
+.is-block-absolute{
+  display: block;
+  position: absolute;
+}
+.profile-container {
+  background: rgba(255, 255, 255, 0.5);
+  height: 733px;
+  width: 733px;
+  margin-top: calc(1%);
+  margin-left: calc(50%);
+}
+.profile-area{
+  position: absolute;
+  top: 200px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.sidemenu-logo {
+  width: 130px;
+  height: 27px;
+  position: absolute;
+  left: 15px;
+  top: 10px;
+}
+.tree-logo{
+  display: inline-block;
+  position: absolute;
+  margin-top: 45px;
+  left: 16px;
+}
+.tree-title{
+  color: #A0A0A0;
+  font-weight: 400
+}
+
+/* ============ Used for Modal ============= */
+
+.is-modal-scrollable {
+  padding: 20px;
+  background-color: white;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 580px;
+}
+
+.is-modal-scrollable::-webkit-scrollbar {
+  width: 2px;               /* width of the entire scrollbar */
+}
+
+.is-modal-scrollable::-webkit-scrollbar-track {
+  background: white;        /* color of the tracking area */
+}
+
+.is-modal-scrollable::-webkit-scrollbar-thumb {
+  background-color: rgba(247, 242, 242, 0.877);   /* color of the scroll thumb */
+  border-radius: 1px;       /* roundness of the scroll thumb */
+}
+
+.is-background-transparent {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* ============ Used for Table Components Displaying roles =============  */
+
+.pill {
+  border-radius: 1.5em;
+  padding: 4px 10px;
+  border: solid 2px black;
+  cursor: pointer;
+}
+
+.pill-text {
+  background: inherit;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  filter: invert(1) grayscale(1);
+  -webkit-filter: invert(1) grayscale(1);
+}
+
+.pill-direction-row {
+  display:flex;
+  flex-direction: row;
+  gap:4px; 
+  overflow-x: scroll;
+  max-width: 220px;
+}
+
+.pill-direction-row::-webkit-scrollbar {
+  display: none;
+}
+
+.search-input {
+  width: 120px;
+  height: 17px;
+  font-size: 12px;
+  border: 0px;
+  border-bottom: 2px solid rgba(143, 143, 143, 1) !important;
+}
+.add-user{
+  position: absolute !important;
+  right: 0;
+  top: 30px;
+  vertical-align: middle;
+}
+.admin-modal {
+  height: 400px;
+  width: 733px;
+}
+/* ==================== Used for 3D Sidebar styling ======================= */
+
+.base-layer {
+  height: 100vh; 
+  width: 100%;
+  position: relative;
+}
+.matterport-3d-view {
+  height: 100vh; 
+  width: 100%
+}
+.matterport-sidebar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  background-color: rgba(24, 23, 23, 0.584);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  padding: 6px;
+}
+
+.transparent-icon-button {
+  background: transparent;
+  padding: 2px;
+  border: transparent;
+  color: pink;
+  cursor: pointer;
+}
+
+.content-centered {
+  flex-grow: 1;
+}
+
+.bg-transparent {
+  background: rgba(78, 75, 75, 0.3);
+  border: solid white 1px;
+  color: white;
+}
+
+.transparent-input {
+  background: rgba(78, 75, 75, 0.3);
+  outline: 0;
+  border: 0;
+  border-bottom: solid white 1px;
+  color: white;
+  padding: 2px 4px;
+}
+
+.transparent-input::-webkit-scrollbar {
+width: 2px;               /* width of the entire scrollbar */
+}
+
+.transparent-input::-webkit-scrollbar-track {
+background: transparent;        /* color of the tracking area */
+}
+
+.transparent-input::-webkit-scrollbar-thumb {
+background-color: rgba(24, 23, 23, 0.877);   /* color of the scroll thumb */
+border-radius: 1px;       /* roundness of the scroll thumb */
+}
+
+.transparent-dropdown-menu {
+  background: rgba(37, 30, 30, 0.8);
+  outline: 0;
+  border: 0;
+  color: white;
+  padding: 2px 4px;
+}
+
+.transparent-dropdown-menu::-webkit-scrollbar {
+width: 2px;               /* width of the entire scrollbar */
+}
+
+.transparent-dropdown-menu::-webkit-scrollbar-track {
+background: transparent;        /* color of the tracking area */
+}
+
+.transparent-dropdown-menu::-webkit-scrollbar-thumb {
+background-color: rgba(24, 23, 23, 0.877);   /* color of the scroll thumb */
+border-radius: 1px;       /* roundness of the scroll thumb */
+}
+
+.transparent-dropdown-item {
+  color: white;
+}
+
+.row-container {
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+justify-content: space-around;
+align-items: auto;
+align-content: start;
+}
+
+.row-item {
+flex: 1 0 auto;
+justify-content: left;
+}
+
+.scrollable-table {
+  overflow-y:scroll;
+  max-height: 400px;
+  max-width: 20vw;
+  
+}
+
+.scrollable-table::-webkit-scrollbar {
+width: 2px;               /* width of the entire scrollbar */
+}
+
+.scrollable-table::-webkit-scrollbar-track {
+background: transparent;        /* color of the tracking area */
+}
+
+.scrollable-table::-webkit-scrollbar-thumb {
+background-color: rgba(24, 23, 23, 0.877);   /* color of the scroll thumb */
+border-radius: 1px;       /* roundness of the scroll thumb */
+}
+
+.sidebar-table {
+  color: white;
+  text-align: left;
+}
+
+.scrollable-table tr:hover td {
+  background-color: rgba(24, 23, 23, 0.632);
+  cursor: pointer;
+}
+
+.scrollable-table tr td {
+  padding: 2px 6px;
+}
+
+.thin-rows {
+  line-height:0;
+  color: white;
+}
+
+.colored-indicator {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  border: solid black 1px;
+}
+
+.colored-radio {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  border: solid black 1px;
+  cursor: pointer;
+}
+
+.add-icon {
+  top: 118px;
+  left: 50px;
+  z-index: 50
+}
+
+
+/* ======================= THE LEFT SIDEBAR ======================= */
+
+.sidebar-wrapper{
+  position: relative;
+  height: 100vh; 
+  background: rgba(230,230,230, 0.8); 
+}
+
+.space-tree-wrapper{
+  height: 60vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.sidebar-bot-menu-wrapper{
+  position: absolute; 
+  bottom: 0;
+  width: 100%;
+}
+
+
+/* ======================= END ======================= */
+.error-message{
+  font-size: 14px;
+  bottom: 10px;
+  margin-left: 100px
+}

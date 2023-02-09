@@ -1,0 +1,15 @@
+server {
+    server_name $SUB.$DOMAIN;
+    root /usr/share/nginx/html/azusa/$PROJ;
+    index index.html;
+
+    location ^~ / {
+        index  index.html index.htm;
+        try_files $uri $uri/ @rewrites;                    
+    }
+
+    location @rewrites {
+        rewrite ^.*$ /index.html last;
+    }
+}
+

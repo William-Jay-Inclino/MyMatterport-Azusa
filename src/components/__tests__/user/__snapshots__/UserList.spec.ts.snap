@@ -1,0 +1,70 @@
+// Vitest Snapshot v1
+
+exports[`=== UI Elements === > Should find button-add 1`] = `
+DOMWrapper {
+  "isDisabled": [Function],
+  "wrapperElement": <o-button
+    data-test="button-add"
+  >
+    Add
+  </o-button>,
+}
+`;
+
+exports[`=== UI Elements === > Should find table-users 1`] = `
+DOMWrapper {
+  "isDisabled": [Function],
+  "wrapperElement": <o-table
+    data=""
+    data-test="table-users"
+    focusable=""
+    paginated="true"
+    pagination-simple="true"
+    per-page="25"
+  >
+    <o-table-column
+      field="first_name"
+      label="Firstname"
+      searchable=""
+      sortable=""
+      width="120"
+    >
+      
+    </o-table-column>
+    <o-table-column
+      field="last_name"
+      label="Lastname"
+      searchable=""
+      sortable=""
+      width="120"
+    >
+      
+    </o-table-column>
+    <o-table-column
+      field="email"
+      label="Email"
+      searchable=""
+      sortable=""
+      width="120"
+    >
+      
+    </o-table-column>
+    <o-table-column
+      field="mobile"
+      label="Mobile"
+      searchable=""
+      sortable=""
+      width="120"
+    >
+      
+    </o-table-column>
+    <o-table-column
+      label="Actions"
+    >
+      <o-button>
+        Edit
+      </o-button>
+    </o-table-column>
+  </o-table>,
+}
+`;
