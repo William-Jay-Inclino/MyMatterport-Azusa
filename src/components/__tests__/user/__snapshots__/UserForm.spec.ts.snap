@@ -1,0 +1,70 @@
+// Vitest Snapshot v1
+
+exports[`=== UI Elements === > Should find button-cancel 1`] = `
+DOMWrapper {
+  "isDisabled": [Function],
+  "wrapperElement": <o-button
+    data-test="button-cancel"
+  >
+    Cancel
+  </o-button>,
+}
+`;
+
+exports[`=== UI Elements === > Should find button-delete 1`] = `
+DOMWrapper {
+  "isDisabled": [Function],
+  "wrapperElement": <o-button
+    data-test="button-delete"
+  >
+    Delete
+  </o-button>,
+}
+`;
+
+exports[`=== UI Elements === > Should find button-save 1`] = `
+DOMWrapper {
+  "isDisabled": [Function],
+  "wrapperElement": <o-button
+    data-test="button-save"
+  >
+    Save
+  </o-button>,
+}
+`;
+
+exports[`=== UI Elements === > Should find input-email 1`] = `
+DOMWrapper {
+  "isDisabled": [Function],
+  "wrapperElement": <o-input
+    data-test="input-email"
+  />,
+}
+`;
+
+exports[`=== UI Elements === > Should find input-first-name 1`] = `
+DOMWrapper {
+  "isDisabled": [Function],
+  "wrapperElement": <o-input
+    data-test="input-first-name"
+  />,
+}
+`;
+
+exports[`=== UI Elements === > Should find input-last-name 1`] = `
+DOMWrapper {
+  "isDisabled": [Function],
+  "wrapperElement": <o-input
+    data-test="input-last-name"
+  />,
+}
+`;
+
+exports[`=== UI Elements === > Should find input-mobile 1`] = `
+DOMWrapper {
+  "isDisabled": [Function],
+  "wrapperElement": <o-input
+    data-test="input-mobile"
+  />,
+}
+`;

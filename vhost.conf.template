@@ -1,0 +1,35 @@
+server {
+    server_name $SUB.$DOMAIN;
+    root /usr/share/nginx/html/azusa/$PROJ;
+    index index.html;
+
+    location ^~ / {
+        index  index.html index.htm;
+        try_files $uri $uri/ @rewrites;                    
+    }
+
+    location @rewrites {
+        rewrite ^.*$ /index.html last;
+    }
+
+    location /api {
+        proxy_pass http://localhost:$PORT;
+        proxy_set_header Host $SUB.$DOMAIN;    
+    }
+
+        location /admin {
+        proxy_pass http://localhost:$PORT;
+        proxy_set_header Host $SUB.$DOMAIN;
+    }
+
+        location /default {
+        proxy_pass http://localhost:$PORT;
+        proxy_set_header Host $SUB.$DOMAIN;
+    }
+
+    location /static {
+        proxy_pass http://localhost:$PORT;
+        proxy_set_header Host $SUB.$DOMAIN;
+    }
+}
+

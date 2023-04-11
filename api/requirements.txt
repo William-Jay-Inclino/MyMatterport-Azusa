@@ -1,0 +1,5 @@
+# Python packages
+python-dateutil
+boxsdk[jwt]
+boto3
+treelib

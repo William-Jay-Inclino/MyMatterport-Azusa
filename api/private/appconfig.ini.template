@@ -1,0 +1,59 @@
+; App configuration
+[app]
+name        = Azusa DigitTwin
+author      = Revolution of Kitten, Inc <contact@rev-kitten.com>
+description = Azusa DigitTwin
+keywords    = architecture, design, showcase, virtual, tour
+generator   = Revolution of Kitten, Inc.
+production  = false
+toolbar     = false
+
+; Host configuration
+[host]
+names = localhost:*, 127.0.0.1:*, *:*, *
+
+; db configuration
+[db]
+uri       = mysql://azusa:20Ch3rr72317@db/azusadb
+migrate   = true
+fake_migrate = false
+pool_size = 10  
+
+; smtp address and credentials
+[smtp]
+server = smtp.gmail.com:587
+sender = you@gmail.com
+login  = username:password
+tls    = true
+ssl    = true
+
+[scheduler]
+enabled   = false
+heartbeat = 1
+
+[google]
+analytics_id =
+
+[notification]
+notify_interval= 10 
+notify_retry_period = 30
+
+[firebase]
+server_uid=2fzpwnTTrZWxLF9Ett0HmLCJ10u2
+
+;aws local
+[aws]
+;access_key_id = AKIAVVUXZ66KW7GBSW7A
+;secret_access_key = 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
+;region_name = ap-northeast-1
+;bucket_name = roki-atwin-dev
+
+access_key_id = AKIAVVUXZ66KW7GBSW7A
+secret_access_key = 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
+region_name = ap-northeast-1
+bucket_name = roki-iishina-dev
+expiry = 473353890
+
+
+[hololens]
+enabled = true

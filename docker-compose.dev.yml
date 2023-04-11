@@ -1,0 +1,37 @@
+version: '3.1'
+
+services:
+  db:
+    image: mariadb
+    restart: always
+    volumes:
+      - azusa:/var/lib/mysql
+    environment:
+      TZ: Asia/Tokyo
+      MYSQL_ROOT_PASSWORD: 20Ch3rr72317
+      MYSQL_DATABASE: azusadb
+      MYSQL_USER: azusa
+      MYSQL_PASSWORD: 20Ch3rr7202317
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    image: rok/web2py:python3.7
+    restart: always
+    volumes:
+      - ./api:/opt/web2py/applications/azusa
+    ports:
+      - 8095:8080
+      - 9095:9090
+    environment:
+      - TZ=Asia/Tokyo
+      - WEB2PY_PASSWORD=20Ch3rr72317!
+      - WEB2PY_ADMIN_SECURITY_BYPASS=true
+    depends_on:
+      - db
+
+volumes:
+  azusa:
+
+
